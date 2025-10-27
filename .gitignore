@@ -1,0 +1,73 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Byte-compiled / optimized files
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Test / coverage reports
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Backup / temp
+*.bak
+*.tmp
+*.swp
+*.swo
+~$*
