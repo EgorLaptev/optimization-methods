@@ -96,7 +96,7 @@ Z = 4x₁ + x₂ + 2x₃ + 3x₄
 ## Структура проекта
 ```md
 ├── main.py                # Точка входа
-├── simplex_solver.py      # Класс SolveSimplex
+├── simplex_solver.py      # Класс SimplexSolver
 ├── data/
 │   └── input.json         # Входные данные
 ├── misc/
