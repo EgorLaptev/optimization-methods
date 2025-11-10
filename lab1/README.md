@@ -41,7 +41,8 @@ pip install -r requirements.txt
 
 ### Запуск программы
 ```bash
-python lab1/main.py
+cd lab1
+python main.py
 ```
 
 
@@ -95,7 +96,7 @@ Z = 4x₁ + x₂ + 2x₃ + 3x₄
 ## Структура проекта
 ```md
 ├── main.py                # Точка входа
-├── simplex_solver.py      # Класс SolveSimplex
+├── simplex_solver.py      # Класс SimplexSolver
 ├── data/
 │   └── input.json         # Входные данные
 ├── misc/
