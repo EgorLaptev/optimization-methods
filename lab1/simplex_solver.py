@@ -7,12 +7,6 @@ class SimplexException(Exception):
 
 class SimplexSolver:
     def __init__(self, objective, C, constraints, tol=1e-9, max_iters=1000):
-        """
-        objective: "max" or "min"
-        C: list or array of objective coefficients for original variables
-        constraints: list of tuples (A_row, sign, b)
-            sign is one of "<=", ">=", "="
-        """
         self.objective = objective.lower()
         if self.objective not in ("max", "min"):
             raise ValueError("objective must be 'max' or 'min'")
